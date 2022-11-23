@@ -1,0 +1,37 @@
+sudo
+
+sudo, which is an acronym for superuser do or substitute user do, is a command that runs an elevated prompt without a need to change your identity. Depending on your settings in the /etc/sudoers file, you can issue single commands as root or as another user. To continue running commands with root power, you must always use the sudo command. For example, if you want to install the Nginx package, you run:
+
+$ dnf install nginx
+
+But you will see an error if you are not root or in the sudo group. Instead, if you run this command:
+
+$ sudo dnf install nginx
+
+You will be asked to type your password, and then you can run the command if you are a part of the sudo group.
+
+A simple way to switch to an interactive session as a root user is the following:
+
+$ sudo -i
+
+The theory behind using sudo is that the act of issuing the sudo command before any command you run makes you think more about what you're doing and hopefully make fewer mistakes with an account that possesses unlimited power.
+
+su
+
+su, on the other hand, is an acronym for switch user or substitute user. You are basically switching to a particular user and you need the password for the user you are switching to. Most often, the user account you switch to is the root account but it can be any account on the system.
+
+For example, if you type:
+
+$ su -
+
+In the above example, you are switching to root and you need the root password. The (-) switch provides you with root's environment (path and shell variables) rather than simply giving you root user power for a single command while keeping your own environment.
+
+$ su bryant
+
+For the second example, you are switching to bryant, and so you need bryant's password unless you are root.
+
+If you want to switch to the bryant user account including bryant's path and environment variables, use the (-) switch:
+
+$ su - bryant
+
+The (-) switch has the same effect as logging into a system directly with that user account. In essence, you become that user.
