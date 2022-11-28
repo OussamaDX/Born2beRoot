@@ -121,6 +121,17 @@ What is swap file systeme?
 
 Swap space is used by the system to store memory pages or blocks that are used less frequently to free up space in the physical RAM. In this hands-on lab, you will be tasked with creating and enabling a swap partition and a swap file and ensuring that they persist through a reboot.
 
+------------------------------------------------------------------------------------------------------------------------------------
+Overview
+Security-Enhanced Linux (SELinux) is a security architecture for Linux® systems that allows administrators to have more control over who can access the system. It was originally developed by the United States National Security Agency (NSA) as a series of patches to the Linux kernel using Linux Security Modules (LSM).  
+
+SELinux was released to the open source community in 2000, and was integrated into the upstream Linux kernel in 2003.
+
+How does SELinux work?
+SELinux defines access controls for the applications, processes, and files on a system. It uses security policies, which are a set of rules that tell SELinux what can or can’t be accessed, to enforce the access allowed by a policy. 
+------------------------------------------------------------------------------------------------------------------------------------
+
+
 watch this :
 
 arabic
