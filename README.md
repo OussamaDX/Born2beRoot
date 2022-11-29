@@ -129,12 +129,17 @@ SELinux was released to the open source community in 2000, and was integrated in
 
 How does SELinux work?
 SELinux defines access controls for the applications, processes, and files on a system. It uses security policies, which are a set of rules that tell SELinux what can or can’t be accessed, to enforce the access allowed by a policy. 
+-------------------------------------------------------------------------------------------------------------------------------*-----
+*systemctl command
+
+More administrators are working in cloud environments than ever, and they need to conduct a number of system and service management tasks.
+
+The systemctl command manages both system and service configurations, enabling administrators to manage the OS and control the status of services. Further, systemctl is useful for troubleshooting and basic performance tuning.
 ------------------------------------------------------------------------------------------------------------------------------------
-
-
 watch this :
 
 arabic
+
 https://www.youtube.com/watch?v=OYqaLUEfl-E
 
 https://www.youtube.com/watch?v=CcIR_Yb97FY
