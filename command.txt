@@ -1,0 +1,28 @@
+to see password of config ----------->  sudo vim /etc/pam.d/common-password
+
+password age --------> sudo vim /etc/login.defs
+
+check active of ufw --------> sudo service ufw status
+
+
+check ufw status ----------- > sudo ufw status
+
+
+Check that the user has been added and it belongs to the "sudo" and "user42" groups -----------------> sudo getent group sudo
+
+creat new use -----> sudo adsuser (name)
+
+add user to group ---------> sudo adduser (username) (groupname)
+
+Creating new group --------- > sudo groupadd <groupname>
+
+To change hostname ---------- > sudo vim /etc/hostname
+
+Verify password expire info for new user ------> sudo chage -l <username>
+
+| 8) nano /etc/sudoers.d/<filename>     8 <- yes, sudo config file. You can $ ls /etc/sudoers.d first
+| 9) nano /etc/login.defs               9 <- password expire policy
+| 10) nano /etc/pam.d/common-password  10 <- password policy
+---------------------------------------------------------------	
+-what is server ?
+A server is a computer program or device that provides a service to another computer program and its user, also...

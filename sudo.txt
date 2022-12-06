@@ -1,0 +1,1 @@
+sudo is a command-line program that allows trusted users to execute commands as root or another user.
