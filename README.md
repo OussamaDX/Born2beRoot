@@ -1,5 +1,6 @@
 # Born2beRoot
-
+ #please read this before read script
+ 
 systeme administrator :
 
 A system administrator, or sysadmin, or admin is a person who is responsible for the upkeep, configuration, and reliable operation of computer systems, especially multi-user computers, such as servers. The system administrator seeks to ensure that the uptime, performance, resources, and security of the computers they manage meet the needs of the users, without exceeding a set budget when doing so. 
