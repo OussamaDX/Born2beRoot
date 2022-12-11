@@ -1,5 +1,5 @@
 # Born2beRoot
- #please read this before read script
+# please read this before read script
  
 systeme administrator :
 
